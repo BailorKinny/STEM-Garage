@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Profile</title>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!--custom css file link link-->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<!---header----->
+<header class="header">
+  <section class="flex">
+    <a href="home.html" class="logo">BKB</a>
+
+    <form class="search-form" action="" method="post">
+      <input type="text" name="search_box" placeholder="search courses..." required maxlength="100">
+      <button type="submit" class="fas fa-search" name="search_box"></button>
+    </form>
+
+    <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="user-btn" class="fas fa-user"></div>
+      <div id="toggle-btn" class="fas fa-sun"></div>
+    </div>
+
+    <div class="profile">
+      <img src="img/Bailor Bah Passport Pic (1).png" alt="">
+      <h3>Bailor Bah</h3>
+      <span>Software Developer</span>
+      <a href="profile.html" class="btn">View Profile</a>
+      <div class="flex-btn">
+        <a href="login.html" class="option-btn">Login</a>
+        <a href="register.html" class="option-btn">Register</a>
+      </div>
+    </div>
+  </section>
+</header>
+<!---header---x-->
+
+<!---side bar----->  
+<div class="side-bar">
+
+  <div class="close-side-bar">
+    <i class="fas fa-times"></i>
+  </div>
+
+  <div class="profile">
+    <img src="img/Bailor Bah Passport Pic (1).png" alt="">
+    <h3>Bailor Bah</h3>
+    <span>Software Developer</span>
+    <a href="profile.html" class="btn">View Profile</a>
+  </div>
+
+  <nav class="navbar">
+    <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+    <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+    <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+    <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+    <a href="contact.html"><i class="fas fa-headset"></i><span>Conatct Us</span></a>
+  </nav>
+
+</div>
+<!---side bar----x-->
+
+<!---Update Profile------->
+<section class="form-container">
+  <form action="" method="post" enctype="multipart/form-data">
+    <h3>Update Profile</h3>
+    <p>Your name</p>
+    <input type="text" name="name" placeholder="Bailor Bah" maxlength="100"  
+    required class="box">
+    <p>Your Email</p>
+    <input type="text" name="email" placeholder="bailorbah35@gmail.com" maxlength="100"  
+    required class="box">
+    <p>Old Password</p>
+    <input type="password" name="old_pass" placeholder="Enter your old password" maxlength="50"  
+    required class="box">
+    <p>New Password</p>
+    <input type="password" name="new_pass" placeholder="Enter your new password" maxlength="50"  
+    required class="box">
+    <p>Confirm Password</p>
+    <input type="password" name="c_pass" placeholder="Confirm your new password" maxlength="100"  
+    required class="box">
+    <p>Update Picture</p>
+    <input type="file" name="image" accept="image/*" required class="box">
+    <input type="submit" name="submit" value="update profile" class="btn">
+  </form>
+</section>
+<!---Update Profile----x-->
+
+<!-- footer -->
+<footer class="footer">
+&copy; Copyright @ 2024 by <span>BKB Tech Hub</span> | all right reserverd!
+</footer>
+<!-- footer ---x-->
+
+    <!---custom js file link--->
+    <script src="js/script.js"></script>
+  </body>
+</html>

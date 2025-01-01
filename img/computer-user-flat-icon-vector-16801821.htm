@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://cdn.vectorstock.com">
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://www.google-analytics.com">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" nonce="Da+x6uinlrqLPw9/+IsEkzQVJxydkkLo9gtpgEPrIz8=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};;/*! For license information please see nr-loader-rum-1.253.0.min.js.LICENSE.txt */
+(()=>{var e,t,n={234:(e,t,n)=>{"use strict";n.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,OP:()=>k,lF:()=>N,Yu:()=>w,Dg:()=>m,CX:()=>c,GE:()=>x,sU:()=>R});var r=n(8632),i=n(9567);const o={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const n=(0,r.ek)(e);n&&(n.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=n(7056),l=n(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const n=(0,r.ek)(e);n&&(n.init=p[e])}function b(e,t){if(!e)throw new Error(h);var n=v(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function x(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const n=(0,r.ek)(e);n&&(n.loader_config=A[e])}const w=(0,r.mF)().o;var _=n(385),E=n(6818);const D={buildEnv:E.Re,customTransaction:void 0,disabled:!1,distMethod:E.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(_._A?.performance?.timeOrigin||_._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+_._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof _._A.XMLHttpRequest?.prototype?.addEventListener,version:E.q4,denyList:void 0},S={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!S[e])throw new Error("Runtime for ".concat(e," was never set"));return S[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");S[e]=(0,i.D)(t,D);const n=(0,r.ek)(e);n&&(n.runtime=S[e])}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{"use strict";n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(n).length?e:n;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?n[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?n[a]=i(e[a],t[a]):n[a]=e[a]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{"use strict";n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.253.0",i="PROD",o="CDN"},385:(e,t,n)=>{"use strict";n.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},9907:(e,t,n)=>{"use strict";n.d(t,{A:()=>r});class r{constructor(e){this.contextId=e}}},8929:(e,t,n)=>{"use strict";n.d(t,{v:()=>a});var r=n(8632);const i=(0,n(4402).Rl)();var o=n(9907);class a{static contextId="nr@context:".concat(i);static contextOriginalId="nr@original:".concat(i);static contextWrappedId="nr@wrapped:".concat(a.contextId);static getObservationContextByAgentIdentifier(e){const t=(0,r.fP)();return Object.keys(t?.initializedAgents||{}).indexOf(e)>-1?t.initializedAgents[e].observationContext:void 0}#e=new WeakMap;getCreateContext(e){return this.#e.has(e)||this.#e.set(e,new o.A),this.#e.get(e)}setContext(e,t){return this.#e.set(e,t),this.#e.get(e)}}},1117:(e,t,n)=>{"use strict";n.d(t,{w:()=>o});var r=n(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{"use strict";n.d(t,{L:()=>d,R:()=>c});var r=n(2177),i=n(1284),o=n(4322),a=n(3325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,n)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(u(e),!e||!s[e].get(t)||n)return c(t);s[e].get(t).staged=!0;const a=[...s[e]];function c(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}a.every((e=>{let[t,n]=e;return n.staged}))&&(a.sort(((e,t)=>e[1].priority-t[1].priority)),a.forEach((t=>{let[n]=t;s[e].delete(n),c(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},2177:(e,t,n)=>{"use strict";n.d(t,{ee:()=>c});var r=n(8632),i=n(2210),o=n(234),a=n(9907),s=n(8929);const c=function e(t,n){var r={},u={},l={},f=!1;try{f=16===n.length&&(0,o.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,o){!1!==o&&(o=!0);if(c.aborted&&!i)return;t&&o&&t.emit(e,n,r);for(var a=p(r),s=v(e),d=s.length,l=0;l<d;l++)s[l].apply(a,n);var f=b()[u[e]];f&&f.push([g,e,n,a]);return a},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;u[i]=t,t in n||(n[t]=[])}))},abort:d,aborted:!1,isBuffering:function(e){return!!b()[u[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{},observationContextManager:null};return g;function p(e){return e&&e instanceof a.A?e:e?(0,i.X)(e,s.v.contextId,(()=>g.observationContextManager?g.observationContextManager.getCreateContext(e):new a.A(s.v.contextId))):g.observationContextManager?g.observationContextManager.getCreateContext({}):new a.A(s.v.contextId)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){const n=l[t]=l[t]||e(g,t);return!n.observationContextManager&&g.observationContextManager&&(n.observationContextManager=g.observationContextManager),n}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function d(){c.aborted=!0,Object.keys(c.backlog).forEach((e=>{delete c.backlog[e]}))}u.ee||(u.ee=c)},5546:(e,t,n)=>{"use strict";n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{"use strict";n.d(t,{X:()=>o});var r=n(5546);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},3239:(e,t,n)=>{"use strict";n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},4402:(e,t,n)=>{"use strict";n.d(t,{Rl:()=>a,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,n++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(n,i++).toString(16));return a.join("")}},7056:(e,t,n)=>{"use strict";n.d(t,{Bq:()=>r,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const r="NRBA",i="SESSION",o=144e5,a=18e5,s={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,n)=>{"use strict";function r(){return Math.floor(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{"use strict";function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2825:(e,t,n)=>{"use strict";n.d(t,{N:()=>d,T:()=>l});var r=n(2177),i=n(5546),o=n(3325),a=n(385);const s="newrelic";const c={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa,o.D.softNav],sr:[o.D.sessionReplay,o.D.sessionTrace]},u=new Set;function d(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,r]=e;c[t]?c[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),l[t]=Boolean(r)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{a._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,n)=>{"use strict";n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{"use strict";n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{"use strict";n.d(t,{P:()=>o});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{"use strict";n.d(t,{KB:()=>a,b2:()=>o});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{"use strict";n.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var r=n(7894),i=n(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let n=a();n.initializedAgents??={},t.initializedAt={ms:(0,r.z)(),date:new Date},n.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,n)=>{"use strict";n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{"use strict";n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{"use strict";n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{"use strict";n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},7144:(e,t,n)=>{"use strict";n.d(t,{Ef:()=>i});var r=n(7056);n(3325).D.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay"};r.IK.ERROR,r.IK.FULL,r.IK.OFF},5938:(e,t,n)=>{"use strict";n.d(t,{W:()=>i});var r=n(2177);class i{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.featureName=n,this.blocked=!1}}},8862:(e,t,n)=>{"use strict";n.d(t,{j:()=>x});var r=n(3325),i=n(234),o=n(5546),a=n(2177),s=n(7894),c=n(8e3),u=n(3960),d=n(385),l=n(50),f=n(3081),g=n(8632),p=n(7144);const h=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay",p.Ef.RECORD,p.Ef.PAUSE],v=["setErrorHandler","finished","addToTrace","addRelease"];function m(){const e=(0,g.gG)();h.forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var b=n(2825);const y=e=>{const t=e.startsWith("http");e+="/",n.p=t?e:"https://"+e};let A=!1;function x(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},h=arguments.length>2?arguments[2]:void 0,x=arguments.length>3?arguments[3]:void 0,{init:w,info:_,loader_config:E,runtime:D={loaderType:h},exposed:S=!0}=t;const k=(0,g.gG)();_||(w=k.init,_=k.info,E=k.loader_config),(0,i.Dg)(e.agentIdentifier,w||{}),(0,i.GE)(e.agentIdentifier,E||{}),_.jsAttributes??={},d.v6&&(_.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,_);const R=(0,i.P_)(e.agentIdentifier),N=[_.beacon,_.errorBeacon];A||(R.proxy.assets&&(y(R.proxy.assets),N.push(R.proxy.assets)),R.proxy.beacon&&N.push(R.proxy.beacon),m(),(0,g.EZ)("activatedFeatures",b.T),e.runSoftNavOverSpa&&=!0===R.soft_navigations.enabled&&R.feature_flags.includes("soft_nav")),D.denyList=[...R.ajax.deny_list||[],...R.ajax.block_internal?N:[]],(0,i.sU)(e.agentIdentifier,D),void 0===e.api&&(e.api=function(e,t){let g=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,c.R)(e,"api");const h={};var m=a.ee.get(e),b=m.get("tracer"),y="api-",A=y+"ixn-";function x(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),E(y,r,!0,o||null===n?"session":void 0)(t,n)}function w(){}v.forEach((e=>{h[e]=E(y,e,!0,"api")})),h.addPageAction=E(y,"addPageAction",!0,r.D.pageAction),h.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,E(y,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return x(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return x("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setApplicationVersion=function(e){if("string"==typeof e||null===e)return x("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},h.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,m);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{m.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},h[p.Ef.RECORD]=function(){(0,o.p)(f.xS,["API/recordReplay/called"],void 0,r.D.metrics,m),(0,o.p)(p.Ef.RECORD,[],void 0,r.D.sessionReplay,m)},h[p.Ef.PAUSE]=function(){(0,o.p)(f.xS,["API/pauseReplay/called"],void 0,r.D.metrics,m),(0,o.p)(p.Ef.PAUSE,[],void 0,r.D.sessionReplay,m)},h.interaction=function(e){return(new w).get("object"==typeof e?e:{})};const _=w.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(f.xS,["API/createTracer/called"],void 0,r.D.metrics,m),g||(0,o.p)(A+"tracer",[(0,s.z)(),e,n],i,r.D.spa,m),function(){if(b.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw b.emit("fn-err",[arguments,this,e],n),e}finally{b.emit("fn-end",[(0,s.z)()],n)}}}};function E(e,t,n,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,m),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,m),n?void 0:this}}function D(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>{(0,l.Z)("Downloading runtime APIs failed..."),(0,c.L)(e,"api",!0)}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{_[e]=E(A,e,void 0,g?r.D.softNav:r.D.spa)})),h.setCurrentRouteName=g?E(A,"routeName",void 0,r.D.softNav):E(y,"routeName",!0,r.D.spa),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,m),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,m)},d.il?(0,u.b2)((()=>D()),!0):D(),h}(e.agentIdentifier,x,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=S),A=!0}},1926:(e,t,n)=>{n.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,n)=>{"use strict";n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.softNav]:9,[r.sessionReplay]:10}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.253.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.253.0.PROD:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-9bAiHIPyDQsfH3twE5thQ79NZloqHEfmncprWhfUn+VZFlQhRa05+ziJ9iJfmPRs6DoQA5H7S/VrlzQnvif2nQ=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[n]=[r];var g=(t,r)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,u=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=self["webpackChunk:NRBA-1.253.0.PROD"]=self["webpackChunk:NRBA-1.253.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";i(1926);var e=i(50),t=i(7144),n=i(8929),r=i(4402),o=i(2177);class a{agentIdentifier;observationContext=new n.v;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e;o.ee.get(e).observationContext=this.observationContext}#t(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...r);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#t("addPageAction",e,t)}setPageViewName(e,t){return this.#t("setPageViewName",e,t)}setCustomAttribute(e,t,n){return this.#t("setCustomAttribute",e,t,n)}noticeError(e,t){return this.#t("noticeError",e,t)}setUserId(e){return this.#t("setUserId",e)}setApplicationVersion(e){return this.#t("setApplicationVersion",e)}setErrorHandler(e){return this.#t("setErrorHandler",e)}finished(e){return this.#t("finished",e)}addRelease(e,t){return this.#t("addRelease",e,t)}start(e){return this.#t("start",e)}recordReplay(){return this.#t(t.Ef.RECORD)}pauseReplay(){return this.#t(t.Ef.PAUSE)}addToTrace(e){return this.#t("addToTrace",e)}setCurrentRouteName(e){return this.#t("setCurrentRouteName",e)}interaction(){return this.#t("interaction")}}var s=i(3325),c=i(234);const u=Object.values(s.D);function d(e){const t={};return u.forEach((n=>{t[n]=function(e,t){return!0===(0,c.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var l=i(8862);var f=i(8e3),g=i(5938),p=i(3960),h=i(385);const v=e=>h.il&&!0===(0,c.Mt)(e,"privacy.cookies_enabled");function m(e){return c.Yu.MO&&v&&!0===(0,c.Mt)(e,"session_trace.enabled")}class b extends g.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,c.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,f.R)(e,n)}importAggregator(){let t,n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,f.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));this.onAggregateImported=new Promise((e=>{t=e}));const r=async()=>{let r;try{if(v(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3108));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===s.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#n(this.featureName,r))return(0,f.L)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,n),t(!0)}catch(n){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),n),this.abortHandler?.(),(0,f.L)(this.agentIdentifier,this.featureName,!0),t(!1)}};h.il?(0,p.b2)((()=>r()),!0):r()}#n(e,t){return e!==s.D.sessionReplay||(n=this.agentIdentifier,r=t,!(!m(n)||!r?.isNew&&!r?.state.sessionReplayMode));var n,r}}var y=i(7633);class A extends b{static featureName=y.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,y.t,n),this.importAggregator()}}var x=i(1117),w=i(1284);class _ extends x.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,w.D)(e,(function(e,n){t[e]=E(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,w.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=E(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=D(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=E(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=Object.values(this.aggregatedData[n]||{}),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function E(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=D(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function D(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var S=i(8632),k=i(4351);var R=i(5546),N=i(7956),C=i(3239),j=i(7894),I=i(9251);class O extends b{static featureName=I.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t,n),h.il&&((0,N.N)((()=>(0,R.p)("docHidden",[(0,j.z)()],void 0,I.t,this.ee)),!0),(0,C.bP)("pagehide",(()=>(0,R.p)("winPagehide",[(0,j.z)()],void 0,I.t,this.ee))),this.importAggregator())}}var T=i(3081);class P extends b{static featureName=T.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,T.t9,n),this.importAggregator()}}new class extends a{constructor(t,n){super(n),h._A?(this.sharedAggregator=new _({agentIdentifier:this.agentIdentifier}),this.features={},(0,S.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(A),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===s.D.softNav)),(0,l.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=d(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>s.p[e.featureName]-s.p[t.featureName])),n.forEach((n=>{if(!t[n.featureName]&&n.featureName!==s.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&n.featureName===s.D.spa)return;if(!this.runSoftNavOverSpa&&n.featureName===s.D.softNav)return;const r=function(e){switch(e){case s.D.ajax:return[s.D.jserrors];case s.D.sessionTrace:return[s.D.ajax,s.D.pageViewEvent];case s.D.sessionReplay:return[s.D.sessionTrace];case s.D.pageViewTiming:return[s.D.pageViewEvent];default:return[]}}(n.featureName);r.every((e=>e in this.features))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,k.P)(r),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,S.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[A,O,P],loaderType:"lite"})})()})();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf65fcc3286cbed">
+	<meta name="csrf-value" content="025fe7b29c5ad20979adf9ce12939ed8">
+	<meta name="csp-nonce" content="Da+x6uinlrqLPw9/+IsEkzQVJxydkkLo9gtpgEPrIz8=">
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="icon" type="image/svg+xml" href="https://cdn.vectorstock.com/img/icons/favicon.svg">
+	<link rel="icon" type="image/png" href="https://cdn.vectorstock.com/img/icons/favicon.png">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>Computer user flat icon Royalty Free Vector Image</title>
+	<meta name="description" content="Computer User flat vector pictogram. Colored computer user, gray, black, blue, green icon versions. Flat icon style for web design. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF, SVG vectors and high-res JPEG and PNG images.">
+		<meta name="robots" content="max-image-preview:large">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/computer-user-flat-icon-vector-16801821">
+	<meta property="og:title" content="Computer user flat icon vector image on VectorStock">
+	<meta property="og:description" content="Computer User flat vector pictogram. Colored computer user, gray, black, blue, green icon versions. Flat icon style for web design. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF, SVG vectors and high-res JPEG and PNG images.">
+	<meta property="og:image" content="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg">
+	<meta property="og:image:url" content="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg">
+	<meta property="og:image:secure_url" content="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="786">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/computer-user-flat-icon-vector-16801821">
+	<meta name="twitter:title" content="Computer user flat icon vector image">
+	<meta name="twitter:description" content="Computer User flat vector pictogram. Colored computer user, gray, black, blue, green icon versions. Flat icon style for web design">
+	<meta name="twitter:image" content="https://cdn2.vectorstock.com/i/thumb-large/18/21/computer-user-flat-icon-vector-16801821.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/computer-user-flat-icon-vector-16801821">
+
+	<link rel="stylesheet" type="text/css" href="/cache/common1711005828.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/common-payment1711005828.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/vector1711005828.min.css">
+	<script nonce='Da+x6uinlrqLPw9/+IsEkzQVJxydkkLo9gtpgEPrIz8='>window.dataLayer=window.dataLayer||[];(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NL6HLLR');</script>
+	<script src="/cache/common1710993216.min.js"></script>
+	<script src="/cache/common-payment-paddle1710993216.min.js"></script>
+	<script src="/cache/vector1710993216.min.js"></script>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL6HLLR"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="/" title="VectorStock&reg;">VectorStock&reg;</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="focused empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search&hellip;" maxlength="50" autofocus>
+								<button type="button" data-action="clear">&times;</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					</fieldset>
+										<button type="button" data-action="searchbyimage">
+						<span class="icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" role="img">
+								<polyline points="17.7,24.9 6.1,24.9 6.1,4.1 18.4,4.1 22.9,8.6 22.9,17.1"/>
+								<polygon class="fill" points="17.7,4.1 17.7,9.4 22.9,9.4 22.9,8.6 18.4,4.1"/>
+								<circle class="fill" cx="11.4" cy="9.9" r="1.7"/>
+								<polygon class="fill" points="12.9,13.3 15.9,17.3 17.6,14.9 20.6,19.1 8.8,19.1"/>
+								<polyline points="25.6,23.4 22.9,20.7 20.2,23.4 "/>
+								<line x1="22.9" y1="20.7" x2="22.9" y2="28.4"/>
+							</svg>
+						</span>
+						<span class="tooltip">
+							<span>Try searching by image!</span>
+						</span>
+					</button>
+										<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+	<nav id="searchrelated"></nav>	
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="/signup">Sign Up</a></li>
+							<li data-action="login"><a href="/?login=1">Login&hellip;</a></li>
+							<li><a href="/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Login</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We&apos;re the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you&apos;re a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="/signup">Sign up now, it&rsquo;s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2"  maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Login</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1" />
+					</li>
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors/user-vectors">
+							<span itemprop="name">User Vectors</span>
+						</a>
+						<meta itemprop="position" content="2" />
+					</li>
+				</ol>
+
+				<h1>Computer user flat icon vector&nbsp;image</h1>
+
+				<figure class="target">
+					<div class="highres" data-src="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg" style="padding-top: 78.5%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.webp">
+							<source type="image/jpeg" srcset="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg">
+							<img src="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg" importance="high" title="Computer user flat icon vector image" alt="Computer user flat icon">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="16801821">
+					<input type="hidden" id="vector_title" value="Computer user flat icon">
+					<input type="hidden" id="vector_description" value="Computer User flat vector pictogram. Colored computer user, gray, black, blue, green icon versions. Flat icon style for web design. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF, SVG vectors and high-res JPEG and PNG images.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/computer-user-flat-icon-vector-16801821">
+					<input type="hidden" id="vector_media" value="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg">
+					<input type="hidden" id="vector_ratio" value="0.786">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="ahasoft">
+					<input type="hidden" id="account_user" value="0">
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_svg" value="1">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;label&quot;:&quot;Standard License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;label&quot;:&quot;Expanded License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">You can use the vector for personal and commercial purposes.</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">You can use the vector on items for resale and print-on-demand.</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: License type: Exclusive
+						-->
+						<div class="option" data-type="ownership">
+							<h6>
+								<span class="type">Ownership</span>
+								<a href="/faq/members/what-is-an-exclusive-buyout">Learn More</a>
+							</h6>
+							<div class="optgroup toggroup" data-id="rights" data-enabled="0">
+								<fieldset>
+									<label for="f_ownership_exclusive">
+										<span class="toggle">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" focusable="false" role="img"><path d="M3.9,8.3 7.2,5 3.9,1.7"/></svg>
+										</span>
+										<span class="label">Exclusive</span>
+										<span class="descr">If you would like to buy this vector exclusively, send the artist a request below:</span>
+										<button type="button" data-copy-process="Sending request" data-copy-success="Request has been sent">
+											<span class="icon"></span>
+											<span class="label">Ask for Exclusive Buyout</span>
+										</button>
+									</label>
+								</fieldset>
+							</div>
+							
+							<div class="help">
+								<p>Want to have this vector image all to yourself? An Exclusive Buyout secures the full rights of this vector.</p>
+								<p>We will remove this vector from our library and the artist will cease selling the&nbsp;artwork.</p>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked" >
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image"  checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>&#36;</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are &#36;<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = &#36;1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+												</span>
+												<span class="byline">Choose a monthly or annual plan for Unlimited downloads.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>&#36;</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are &#36;<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = &#36;1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Payment options (Exclusive)
+						-->
+						<div class="option" data-type="payment" data-license="exclusive">
+							<h6><span class="type">Payment</span></h6>
+							<div class="optgroup radgroup" data-license="exclusive">
+								<fieldset class="checked">
+									<label for="f_payment_exclusive_ppi">
+										<input type="radio" id="f_payment_exclusive_ppi" name="payment_exclusive" data-cost="399" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>399</var></span>
+									</label>
+								</fieldset>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">Extra Services</span><a href="/faq/members/what-is-the-customize-image-service">Learn More</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We&rsquo;ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="landscape" class="target">
+					<div class="highres" data-src="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg" style="padding-top: 78.5%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.webp">
+							<source type="image/jpeg" srcset="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg">
+							<img src="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg" importance="high" title="Computer user flat icon vector image" alt="Computer user flat icon">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"/></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"/></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"/></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"/></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>16801821</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="/royalty-free-vectors/vectors-by_ahasoft" rel="nofollow">ahasoft</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+										<button type="button" data-action="notfollow" title="Hide Artists that you don't like to exclude their images in search results."><span class="label">Hide</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">&hearts;</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope>
+					<meta itemprop="@id" content="https://www.vectorstock.com/16801821">
+					<meta itemprop="contentUrl" content="https://cdn2.vectorstock.com/i/1000x1000/18/21/computer-user-flat-icon-vector-16801821.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn2.vectorstock.com/i/thumb-large/18/21/computer-user-flat-icon-vector-16801821.jpg">
+					<meta itemprop="name" content="Computer user flat icon vector">
+					<meta itemprop="description" content="Computer User flat vector pictogram. Colored computer user, gray, black, blue, green icon versions. Flat icon style for web design. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF, SVG vectors and high-res JPEG and PNG images vector image">
+					<meta itemprop="author" content="ahasoft"/>
+					<meta itemprop="datePublished" content="2017-08-20">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/computer-user-flat-icon-vector-16801821">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/two-color-workstation-icon-from-computer-concept-vector-25735978">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/59/78/two-color-workstation-icon-from-computer-concept-vector-25735978.webp 2x, https://cdn.vectorstock.com/i/preview-1x/59/78/two-color-workstation-icon-from-computer-concept-vector-25735978.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/59/78/two-color-workstation-icon-from-computer-concept-vector-25735978.webp 3x, https://cdn.vectorstock.com/i/preview-1x/59/78/two-color-workstation-icon-from-computer-concept-vector-25735978.webp 2x, https://cdn.vectorstock.com/i/preview-lt/59/78/two-color-workstation-icon-from-computer-concept-vector-25735978.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/59/78/two-color-workstation-icon-from-computer-concept-vector-25735978.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/59/78/two-color-workstation-icon-from-computer-concept-vector-25735978.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/59/78/two-color-workstation-icon-from-computer-concept-vector-25735978.jpg" data-id="25735978" data-title="two color workstation icon from computer concept" data-ratio="1" loading="lazy" alt="Two color workstation icon from computer concept vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/desktop-computer-protected-black-icon-on-white-vector-28402066">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/20/66/desktop-computer-protected-black-icon-on-white-vector-28402066.webp 2x, https://cdn.vectorstock.com/i/preview-1x/20/66/desktop-computer-protected-black-icon-on-white-vector-28402066.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/20/66/desktop-computer-protected-black-icon-on-white-vector-28402066.webp 3x, https://cdn.vectorstock.com/i/preview-1x/20/66/desktop-computer-protected-black-icon-on-white-vector-28402066.webp 2x, https://cdn.vectorstock.com/i/preview-lt/20/66/desktop-computer-protected-black-icon-on-white-vector-28402066.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/20/66/desktop-computer-protected-black-icon-on-white-vector-28402066.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/20/66/desktop-computer-protected-black-icon-on-white-vector-28402066.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/20/66/desktop-computer-protected-black-icon-on-white-vector-28402066.jpg" data-id="28402066" data-title="desktop computer protected black icon on white" data-ratio="1" loading="lazy" alt="Desktop computer protected black icon on white vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/black-computer-icons-set-vector-3391514">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/14/black-computer-icons-set-vector-3391514.webp 2x, https://cdn.vectorstock.com/i/preview-1x/15/14/black-computer-icons-set-vector-3391514.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/15/14/black-computer-icons-set-vector-3391514.webp 3x, https://cdn.vectorstock.com/i/preview-1x/15/14/black-computer-icons-set-vector-3391514.webp 2x, https://cdn.vectorstock.com/i/preview-lt/15/14/black-computer-icons-set-vector-3391514.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/14/black-computer-icons-set-vector-3391514.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/15/14/black-computer-icons-set-vector-3391514.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/15/14/black-computer-icons-set-vector-3391514.jpg" data-id="3391514" data-title="black computer icons set" data-ratio="1" loading="lazy" alt="Black computer icons set vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-icons-vector-926625">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/66/25/computer-icons-vector-926625.webp 2x, https://cdn.vectorstock.com/i/preview-1x/66/25/computer-icons-vector-926625.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/66/25/computer-icons-vector-926625.webp 3x, https://cdn.vectorstock.com/i/preview-1x/66/25/computer-icons-vector-926625.webp 2x, https://cdn.vectorstock.com/i/preview-lt/66/25/computer-icons-vector-926625.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/66/25/computer-icons-vector-926625.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/66/25/computer-icons-vector-926625.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/66/25/computer-icons-vector-926625.jpg" data-id="926625" data-title="computer icons" data-ratio="1.144" loading="lazy" alt="Computer icons vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/laptop-computer-user-icon-isolated-on-white-vector-46692791">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/27/91/laptop-computer-user-icon-isolated-on-white-vector-46692791.webp 2x, https://cdn.vectorstock.com/i/preview-1x/27/91/laptop-computer-user-icon-isolated-on-white-vector-46692791.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/27/91/laptop-computer-user-icon-isolated-on-white-vector-46692791.webp 3x, https://cdn.vectorstock.com/i/preview-1x/27/91/laptop-computer-user-icon-isolated-on-white-vector-46692791.webp 2x, https://cdn.vectorstock.com/i/preview-lt/27/91/laptop-computer-user-icon-isolated-on-white-vector-46692791.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/27/91/laptop-computer-user-icon-isolated-on-white-vector-46692791.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/27/91/laptop-computer-user-icon-isolated-on-white-vector-46692791.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/27/91/laptop-computer-user-icon-isolated-on-white-vector-46692791.jpg" data-id="46692791" data-title="laptop computer user icon isolated on white" data-ratio="1" loading="lazy" alt="Laptop computer user icon isolated on white vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/desktop-vector-4878411">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/84/11/desktop-vector-4878411.webp 2x, https://cdn.vectorstock.com/i/preview-1x/84/11/desktop-vector-4878411.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/84/11/desktop-vector-4878411.webp 3x, https://cdn.vectorstock.com/i/preview-1x/84/11/desktop-vector-4878411.webp 2x, https://cdn.vectorstock.com/i/preview-lt/84/11/desktop-vector-4878411.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/84/11/desktop-vector-4878411.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/84/11/desktop-vector-4878411.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/84/11/desktop-vector-4878411.jpg" data-id="4878411" data-title="desktop" data-ratio="1.416" loading="lazy" alt="Desktop vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/pc-icon-personal-computer-desktop-workplace-vector-42884081">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/40/81/pc-icon-personal-computer-desktop-workplace-vector-42884081.webp 2x, https://cdn.vectorstock.com/i/preview-1x/40/81/pc-icon-personal-computer-desktop-workplace-vector-42884081.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/40/81/pc-icon-personal-computer-desktop-workplace-vector-42884081.webp 3x, https://cdn.vectorstock.com/i/preview-1x/40/81/pc-icon-personal-computer-desktop-workplace-vector-42884081.webp 2x, https://cdn.vectorstock.com/i/preview-lt/40/81/pc-icon-personal-computer-desktop-workplace-vector-42884081.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/40/81/pc-icon-personal-computer-desktop-workplace-vector-42884081.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/40/81/pc-icon-personal-computer-desktop-workplace-vector-42884081.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/40/81/pc-icon-personal-computer-desktop-workplace-vector-42884081.jpg" data-id="42884081" data-title="pc icon personal computer desktop workplace" data-ratio="1.532" loading="lazy" alt="Pc icon personal computer desktop workplace vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-desktop-pc-icon-vector-27194432">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/44/32/computer-desktop-pc-icon-vector-27194432.webp 2x, https://cdn.vectorstock.com/i/preview-1x/44/32/computer-desktop-pc-icon-vector-27194432.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/44/32/computer-desktop-pc-icon-vector-27194432.webp 3x, https://cdn.vectorstock.com/i/preview-1x/44/32/computer-desktop-pc-icon-vector-27194432.webp 2x, https://cdn.vectorstock.com/i/preview-lt/44/32/computer-desktop-pc-icon-vector-27194432.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/44/32/computer-desktop-pc-icon-vector-27194432.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/44/32/computer-desktop-pc-icon-vector-27194432.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/44/32/computer-desktop-pc-icon-vector-27194432.jpg" data-id="27194432" data-title="computer desktop pc icon" data-ratio="1.436" loading="lazy" alt="Computer desktop pc icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/white-desktop-computer-display-screen-smartphone-vector-29547168">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/71/68/white-desktop-computer-display-screen-smartphone-vector-29547168.webp 2x, https://cdn.vectorstock.com/i/preview-1x/71/68/white-desktop-computer-display-screen-smartphone-vector-29547168.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/71/68/white-desktop-computer-display-screen-smartphone-vector-29547168.webp 3x, https://cdn.vectorstock.com/i/preview-1x/71/68/white-desktop-computer-display-screen-smartphone-vector-29547168.webp 2x, https://cdn.vectorstock.com/i/preview-lt/71/68/white-desktop-computer-display-screen-smartphone-vector-29547168.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/71/68/white-desktop-computer-display-screen-smartphone-vector-29547168.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/71/68/white-desktop-computer-display-screen-smartphone-vector-29547168.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/71/68/white-desktop-computer-display-screen-smartphone-vector-29547168.jpg" data-id="29547168" data-title="white desktop computer display screen smartphone" data-ratio="1.472" loading="lazy" alt="White desktop computer display screen smartphone vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/black-network-connection-icons-set-vector-20922699">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/26/99/black-network-connection-icons-set-vector-20922699.webp 2x, https://cdn.vectorstock.com/i/preview-1x/26/99/black-network-connection-icons-set-vector-20922699.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/26/99/black-network-connection-icons-set-vector-20922699.webp 3x, https://cdn.vectorstock.com/i/preview-1x/26/99/black-network-connection-icons-set-vector-20922699.webp 2x, https://cdn.vectorstock.com/i/preview-lt/26/99/black-network-connection-icons-set-vector-20922699.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/26/99/black-network-connection-icons-set-vector-20922699.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/26/99/black-network-connection-icons-set-vector-20922699.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/26/99/black-network-connection-icons-set-vector-20922699.jpg" data-id="20922699" data-title="black network connection icons set" data-ratio="1.448" loading="lazy" alt="Black network connection icons set vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/desktop-computer-icon-on-white-background-vector-27770366">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/03/66/desktop-computer-icon-on-white-background-vector-27770366.webp 2x, https://cdn.vectorstock.com/i/preview-1x/03/66/desktop-computer-icon-on-white-background-vector-27770366.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/03/66/desktop-computer-icon-on-white-background-vector-27770366.webp 3x, https://cdn.vectorstock.com/i/preview-1x/03/66/desktop-computer-icon-on-white-background-vector-27770366.webp 2x, https://cdn.vectorstock.com/i/preview-lt/03/66/desktop-computer-icon-on-white-background-vector-27770366.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/03/66/desktop-computer-icon-on-white-background-vector-27770366.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/03/66/desktop-computer-icon-on-white-background-vector-27770366.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/03/66/desktop-computer-icon-on-white-background-vector-27770366.jpg" data-id="27770366" data-title="desktop computer icon on white background" data-ratio="1" loading="lazy" alt="Desktop computer icon on white background vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/device-icons-set-vector-4367541">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/41/device-icons-set-vector-4367541.webp 2x, https://cdn.vectorstock.com/i/preview-1x/75/41/device-icons-set-vector-4367541.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/75/41/device-icons-set-vector-4367541.webp 3x, https://cdn.vectorstock.com/i/preview-1x/75/41/device-icons-set-vector-4367541.webp 2x, https://cdn.vectorstock.com/i/preview-lt/75/41/device-icons-set-vector-4367541.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/41/device-icons-set-vector-4367541.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/75/41/device-icons-set-vector-4367541.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/75/41/device-icons-set-vector-4367541.jpg" data-id="4367541" data-title="device icons set" data-ratio="1" loading="lazy" alt="Device icons set vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/realistic-monitor-vector-6428160">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/81/60/realistic-monitor-vector-6428160.webp 2x, https://cdn.vectorstock.com/i/preview-1x/81/60/realistic-monitor-vector-6428160.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/81/60/realistic-monitor-vector-6428160.webp 3x, https://cdn.vectorstock.com/i/preview-1x/81/60/realistic-monitor-vector-6428160.webp 2x, https://cdn.vectorstock.com/i/preview-lt/81/60/realistic-monitor-vector-6428160.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/81/60/realistic-monitor-vector-6428160.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/81/60/realistic-monitor-vector-6428160.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/81/60/realistic-monitor-vector-6428160.jpg" data-id="6428160" data-title="realistic monitor" data-ratio="2.668" loading="lazy" alt="Realistic monitor vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/happy-people-spending-their-time-using-computer-vector-21095106">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/51/06/happy-people-spending-their-time-using-computer-vector-21095106.webp 2x, https://cdn.vectorstock.com/i/preview-1x/51/06/happy-people-spending-their-time-using-computer-vector-21095106.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/51/06/happy-people-spending-their-time-using-computer-vector-21095106.webp 3x, https://cdn.vectorstock.com/i/preview-1x/51/06/happy-people-spending-their-time-using-computer-vector-21095106.webp 2x, https://cdn.vectorstock.com/i/preview-lt/51/06/happy-people-spending-their-time-using-computer-vector-21095106.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/51/06/happy-people-spending-their-time-using-computer-vector-21095106.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/51/06/happy-people-spending-their-time-using-computer-vector-21095106.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/51/06/happy-people-spending-their-time-using-computer-vector-21095106.jpg" data-id="21095106" data-title="happy people spending their time using computer" data-ratio="1" loading="lazy" alt="Happy people spending their time using computer vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/monochrome-round-laptop-icon-vector-5106663">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/66/63/monochrome-round-laptop-icon-vector-5106663.webp 2x, https://cdn.vectorstock.com/i/preview-1x/66/63/monochrome-round-laptop-icon-vector-5106663.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/66/63/monochrome-round-laptop-icon-vector-5106663.webp 3x, https://cdn.vectorstock.com/i/preview-1x/66/63/monochrome-round-laptop-icon-vector-5106663.webp 2x, https://cdn.vectorstock.com/i/preview-lt/66/63/monochrome-round-laptop-icon-vector-5106663.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/66/63/monochrome-round-laptop-icon-vector-5106663.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/66/63/monochrome-round-laptop-icon-vector-5106663.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/66/63/monochrome-round-laptop-icon-vector-5106663.jpg" data-id="5106663" data-title="monochrome round laptop icon" data-ratio="1" loading="lazy" alt="Monochrome round laptop icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-coding-icons-set-vector-12854757">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/47/57/computer-coding-icons-set-vector-12854757.webp 2x, https://cdn.vectorstock.com/i/preview-1x/47/57/computer-coding-icons-set-vector-12854757.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/47/57/computer-coding-icons-set-vector-12854757.webp 3x, https://cdn.vectorstock.com/i/preview-1x/47/57/computer-coding-icons-set-vector-12854757.webp 2x, https://cdn.vectorstock.com/i/preview-lt/47/57/computer-coding-icons-set-vector-12854757.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/47/57/computer-coding-icons-set-vector-12854757.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/47/57/computer-coding-icons-set-vector-12854757.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/47/57/computer-coding-icons-set-vector-12854757.jpg" data-id="12854757" data-title="computer coding icons set" data-ratio="1.1" loading="lazy" alt="Computer coding icons set vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/user-with-desktop-isolated-icon-vector-16960955">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/09/55/user-with-desktop-isolated-icon-vector-16960955.webp 2x, https://cdn.vectorstock.com/i/preview-1x/09/55/user-with-desktop-isolated-icon-vector-16960955.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/09/55/user-with-desktop-isolated-icon-vector-16960955.webp 3x, https://cdn.vectorstock.com/i/preview-1x/09/55/user-with-desktop-isolated-icon-vector-16960955.webp 2x, https://cdn.vectorstock.com/i/preview-lt/09/55/user-with-desktop-isolated-icon-vector-16960955.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/09/55/user-with-desktop-isolated-icon-vector-16960955.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/09/55/user-with-desktop-isolated-icon-vector-16960955.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/09/55/user-with-desktop-isolated-icon-vector-16960955.jpg" data-id="16960955" data-title="user with desktop isolated icon" data-ratio="0.688" loading="lazy" alt="User with desktop isolated icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/smartphone-tablet-laptop-and-desktop-computer-vector-9695704">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/57/04/smartphone-tablet-laptop-and-desktop-computer-vector-9695704.webp 2x, https://cdn.vectorstock.com/i/preview-1x/57/04/smartphone-tablet-laptop-and-desktop-computer-vector-9695704.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/57/04/smartphone-tablet-laptop-and-desktop-computer-vector-9695704.webp 3x, https://cdn.vectorstock.com/i/preview-1x/57/04/smartphone-tablet-laptop-and-desktop-computer-vector-9695704.webp 2x, https://cdn.vectorstock.com/i/preview-lt/57/04/smartphone-tablet-laptop-and-desktop-computer-vector-9695704.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/57/04/smartphone-tablet-laptop-and-desktop-computer-vector-9695704.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/57/04/smartphone-tablet-laptop-and-desktop-computer-vector-9695704.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/57/04/smartphone-tablet-laptop-and-desktop-computer-vector-9695704.jpg" data-id="9695704" data-title="smartphone tablet laptop and desktop computer" data-ratio="1.248" loading="lazy" alt="Smartphone tablet laptop and desktop computer vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/simple-black-color-desktop-computer-logo-icon-vector-29509579">
+							<picture class="square">
+								<source type="image/avif" srcset="https://cdn.vectorstock.com/i/750p/95/79/simple-black-color-desktop-computer-logo-icon-vector-29509579.avif 750w, https://cdn.vectorstock.com/i/500p/95/79/simple-black-color-desktop-computer-logo-icon-vector-29509579.avif 500w" sizes="300px">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/750p/95/79/simple-black-color-desktop-computer-logo-icon-vector-29509579.webp 750w, https://cdn.vectorstock.com/i/500p/95/79/simple-black-color-desktop-computer-logo-icon-vector-29509579.webp 500w" sizes="300px">
+								<img src="https://cdn.vectorstock.com/i/500p/95/79/simple-black-color-desktop-computer-logo-icon-vector-29509579.jpg" height="100%" data-id="29509579" data-title="simple black color desktop computer logo icon" data-ratio="1" loading="lazy" alt="simple black color desktop computer logo icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/people-presentation-report-on-computer-desktop-vector-22858278">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/82/78/people-presentation-report-on-computer-desktop-vector-22858278.webp 2x, https://cdn.vectorstock.com/i/preview-1x/82/78/people-presentation-report-on-computer-desktop-vector-22858278.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/82/78/people-presentation-report-on-computer-desktop-vector-22858278.webp 3x, https://cdn.vectorstock.com/i/preview-1x/82/78/people-presentation-report-on-computer-desktop-vector-22858278.webp 2x, https://cdn.vectorstock.com/i/preview-lt/82/78/people-presentation-report-on-computer-desktop-vector-22858278.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/82/78/people-presentation-report-on-computer-desktop-vector-22858278.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/82/78/people-presentation-report-on-computer-desktop-vector-22858278.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/82/78/people-presentation-report-on-computer-desktop-vector-22858278.jpg" data-id="22858278" data-title="people presentation report on computer desktop" data-ratio="1" loading="lazy" alt="People presentation report on computer desktop vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="6757874" data-title="electronic devices outline icons set" data-src="https://cdn5.vectorstock.com/i/thumbs/78/74/electronic-devices-outline-icons-set-vector-6757874.jpg"><a href="//www.vectorstock.com/royalty-free-vector/electronic-devices-outline-icons-set-vector-6757874" title="electronic devices outline icons set vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/78/74/electronic-devices-outline-icons-set-vector-6757874.jpg" title="electronic devices outline icons set" alt="electronic devices outline icons set vector image"></noscript></a></li>
+						<li data-id="24830665" data-title="desktop computer with books and cup coffee icon" data-src="https://cdn1.vectorstock.com/i/thumbs/06/65/desktop-computer-with-books-and-cup-coffee-icon-vector-24830665.jpg"><a href="//www.vectorstock.com/royalty-free-vector/desktop-computer-with-books-and-cup-coffee-icon-vector-24830665" title="desktop computer with books and cup coffee icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/06/65/desktop-computer-with-books-and-cup-coffee-icon-vector-24830665.jpg" title="desktop computer with books and cup coffee icon" alt="desktop computer with books and cup coffee icon vector image"></noscript></a></li>
+						<li data-id="36657878" data-title="pendulum on computer desktop" data-src="https://cdn4.vectorstock.com/i/thumbs/78/78/pendulum-on-computer-desktop-vector-36657878.jpg"><a href="//www.vectorstock.com/royalty-free-vector/pendulum-on-computer-desktop-vector-36657878" title="pendulum on computer desktop vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/78/78/pendulum-on-computer-desktop-vector-36657878.jpg" title="pendulum on computer desktop" alt="pendulum on computer desktop vector image"></noscript></a></li>
+						<li data-id="28246545" data-title="outline pc computer with monitor icon isolated" data-src="https://cdn1.vectorstock.com/i/thumbs/65/45/outline-pc-computer-with-monitor-icon-isolated-vector-28246545.jpg"><a href="//www.vectorstock.com/royalty-free-vector/outline-pc-computer-with-monitor-icon-isolated-vector-28246545" title="outline pc computer with monitor icon isolated vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/65/45/outline-pc-computer-with-monitor-icon-isolated-vector-28246545.jpg" title="outline pc computer with monitor icon isolated" alt="outline pc computer with monitor icon isolated vector image"></noscript></a></li>
+						<li data-id="38160661" data-title="pc computer icon in comic style desktop cartoon" data-src="https://cdn2.vectorstock.com/i/thumbs/06/61/pc-computer-icon-in-comic-style-desktop-cartoon-vector-38160661.jpg"><a href="//www.vectorstock.com/royalty-free-vector/pc-computer-icon-in-comic-style-desktop-cartoon-vector-38160661" title="pc computer icon in comic style desktop cartoon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/06/61/pc-computer-icon-in-comic-style-desktop-cartoon-vector-38160661.jpg" title="pc computer icon in comic style desktop cartoon" alt="pc computer icon in comic style desktop cartoon vector image"></noscript></a></li>
+						<li data-id="5611479" data-title="desktop computer with mouse and keyboard" data-src="https://cdn.vectorstock.com/i/500p/14/79/desktop-computer-with-mouse-and-keyboard-vector-5611479.jpg"><a href="//www.vectorstock.com/royalty-free-vector/desktop-computer-with-mouse-and-keyboard-vector-5611479" title="desktop computer with mouse and keyboard vector image"><noscript><img src="https://cdn.vectorstock.com/i/500p/14/79/desktop-computer-with-mouse-and-keyboard-vector-5611479.jpg" title="desktop computer with mouse and keyboard" alt="desktop computer with mouse and keyboard vector image"></noscript></a></li>
+						<li data-id="22627550" data-title="pixel computer logo icon design" data-src="https://cdn.vectorstock.com/i/500p/75/50/pixel-computer-logo-icon-design-vector-22627550.jpg"><a href="//www.vectorstock.com/royalty-free-vector/pixel-computer-logo-icon-design-vector-22627550" title="pixel computer logo icon design vector image"><noscript><img src="https://cdn.vectorstock.com/i/500p/75/50/pixel-computer-logo-icon-design-vector-22627550.jpg" title="pixel computer logo icon design" alt="pixel computer logo icon design vector image"></noscript></a></li>
+						<li data-id="4179195" data-title="user" data-src="https://cdn1.vectorstock.com/i/thumbs/91/95/user-vector-4179195.jpg"><a href="//www.vectorstock.com/royalty-free-vector/user-vector-4179195" title="user vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/91/95/user-vector-4179195.jpg" title="user" alt="user vector image"></noscript></a></li>
+						<li data-id="901643" data-title="office icons" data-src="https://cdn.vectorstock.com/i/500p/16/43/office-icons-vector-901643.jpg"><a href="//www.vectorstock.com/royalty-free-vector/office-icons-vector-901643" title="office icons vector image"><noscript><img src="https://cdn.vectorstock.com/i/500p/16/43/office-icons-vector-901643.jpg" title="office icons" alt="office icons vector image"></noscript></a></li>
+						<li data-id="18730949" data-title="computer monitor laptop tablet mobile phone" data-src="https://cdn5.vectorstock.com/i/thumbs/09/49/computer-monitor-laptop-tablet-mobile-phone-vector-18730949.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-monitor-laptop-tablet-mobile-phone-vector-18730949" title="computer monitor laptop tablet mobile phone vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/09/49/computer-monitor-laptop-tablet-mobile-phone-vector-18730949.jpg" title="computer monitor laptop tablet mobile phone" alt="computer monitor laptop tablet mobile phone vector image"></noscript></a></li>
+						<li data-id="21056447" data-title="desktop computer icon symbol logo design" data-src="https://cdn.vectorstock.com/i/500p/64/47/desktop-computer-icon-symbol-logo-design-vector-21056447.jpg"><a href="//www.vectorstock.com/royalty-free-vector/desktop-computer-icon-symbol-logo-design-vector-21056447" title="desktop computer icon symbol logo design vector image"><noscript><img src="https://cdn.vectorstock.com/i/500p/64/47/desktop-computer-icon-symbol-logo-design-vector-21056447.jpg" title="desktop computer icon symbol logo design" alt="desktop computer icon symbol logo design vector image"></noscript></a></li>
+						<li data-id="25749501" data-title="two color computer screen linux icon from" data-src="https://cdn2.vectorstock.com/i/thumbs/95/01/two-color-computer-screen-linux-icon-from-vector-25749501.jpg"><a href="//www.vectorstock.com/royalty-free-vector/two-color-computer-screen-linux-icon-from-vector-25749501" title="two color computer screen linux icon from vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/95/01/two-color-computer-screen-linux-icon-from-vector-25749501.jpg" title="two color computer screen linux icon from" alt="two color computer screen linux icon from vector image"></noscript></a></li>
+						<li data-id="6166664" data-title="cloud technology concept" data-src="https://cdn5.vectorstock.com/i/thumbs/66/64/cloud-technology-concept-vector-6166664.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cloud-technology-concept-vector-6166664" title="cloud technology concept vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/66/64/cloud-technology-concept-vector-6166664.jpg" title="cloud technology concept" alt="cloud technology concept vector image"></noscript></a></li>
+						<li data-id="22953805" data-title="desktop user logo icon design" data-src="https://cdn1.vectorstock.com/i/thumbs/38/05/desktop-user-logo-icon-design-vector-22953805.jpg"><a href="//www.vectorstock.com/royalty-free-vector/desktop-user-logo-icon-design-vector-22953805" title="desktop user logo icon design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/38/05/desktop-user-logo-icon-design-vector-22953805.jpg" title="desktop user logo icon design" alt="desktop user logo icon design vector image"></noscript></a></li>
+						<li data-id="27496367" data-title="desktop computer linear icon on white background" data-src="https://cdn3.vectorstock.com/i/thumbs/63/67/desktop-computer-linear-icon-on-white-background-vector-27496367.jpg"><a href="//www.vectorstock.com/royalty-free-vector/desktop-computer-linear-icon-on-white-background-vector-27496367" title="desktop computer linear icon on white background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/63/67/desktop-computer-linear-icon-on-white-background-vector-27496367.jpg" title="desktop computer linear icon on white background" alt="desktop computer linear icon on white background vector image"></noscript></a></li>
+						<li data-id="31185422" data-title="linux system flat icons simple style" data-src="https://cdn3.vectorstock.com/i/thumbs/54/22/linux-system-flat-icons-simple-style-vector-31185422.jpg"><a href="//www.vectorstock.com/royalty-free-vector/linux-system-flat-icons-simple-style-vector-31185422" title="linux system flat icons simple style vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/54/22/linux-system-flat-icons-simple-style-vector-31185422.jpg" title="linux system flat icons simple style" alt="linux system flat icons simple style vector image"></noscript></a></li>
+						<li data-id="4462840" data-title="responsive design" data-src="https://cdn1.vectorstock.com/i/thumbs/28/40/responsive-design-vector-4462840.jpg"><a href="//www.vectorstock.com/royalty-free-vector/responsive-design-vector-4462840" title="responsive design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/28/40/responsive-design-vector-4462840.jpg" title="responsive design" alt="responsive design vector image"></noscript></a></li>
+						<li data-id="23461397" data-title="realistic black modern thin frame display computer" data-src="https://cdn3.vectorstock.com/i/thumbs/13/97/realistic-black-modern-thin-frame-display-computer-vector-23461397.jpg"><a href="//www.vectorstock.com/royalty-free-vector/realistic-black-modern-thin-frame-display-computer-vector-23461397" title="realistic black modern thin frame display computer vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/13/97/realistic-black-modern-thin-frame-display-computer-vector-23461397.jpg" title="realistic black modern thin frame display computer" alt="realistic black modern thin frame display computer vector image"></noscript></a></li>
+						<li data-id="31397349" data-title="laptop computer set front and back view" data-src="https://cdn.vectorstock.com/i/500p/73/49/laptop-computer-set-front-and-back-view-vector-31397349.jpg"><a href="//www.vectorstock.com/royalty-free-vector/laptop-computer-set-front-and-back-view-vector-31397349" title="laptop computer set front and back view vector image"><noscript><img src="https://cdn.vectorstock.com/i/500p/73/49/laptop-computer-set-front-and-back-view-vector-31397349.jpg" title="laptop computer set front and back view" alt="laptop computer set front and back view vector image"></noscript></a></li>
+						<li data-id="27825504" data-title="pc computer icon in flat style desktop on white" data-src="https://cdn.vectorstock.com/i/500p/55/04/pc-computer-icon-in-flat-style-desktop-on-white-vector-27825504.jpg"><a href="//www.vectorstock.com/royalty-free-vector/pc-computer-icon-in-flat-style-desktop-on-white-vector-27825504" title="pc computer icon in flat style desktop on white vector image"><noscript><img src="https://cdn.vectorstock.com/i/500p/55/04/pc-computer-icon-in-flat-style-desktop-on-white-vector-27825504.jpg" title="pc computer icon in flat style desktop on white" alt="pc computer icon in flat style desktop on white vector image"></noscript></a></li>
+						<li data-id="41495222" data-title="desktop computer monitor line icon outline sign" data-src="https://cdn3.vectorstock.com/i/thumbs/52/22/desktop-computer-monitor-line-icon-outline-sign-vector-41495222.jpg"><a href="//www.vectorstock.com/royalty-free-vector/desktop-computer-monitor-line-icon-outline-sign-vector-41495222" title="desktop computer monitor line icon outline sign vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/52/22/desktop-computer-monitor-line-icon-outline-sign-vector-41495222.jpg" title="desktop computer monitor line icon outline sign" alt="desktop computer monitor line icon outline sign vector image"></noscript></a></li>
+						<li data-id="6637739" data-title="desktop computer system" data-src="https://cdn5.vectorstock.com/i/thumbs/77/39/desktop-computer-system-vector-6637739.jpg"><a href="//www.vectorstock.com/royalty-free-vector/desktop-computer-system-vector-6637739" title="desktop computer system vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/77/39/desktop-computer-system-vector-6637739.jpg" title="desktop computer system" alt="desktop computer system vector image"></noscript></a></li>
+						<li data-id="8356501" data-title="computer desktop icon" data-src="https://cdn2.vectorstock.com/i/thumbs/65/01/computer-desktop-icon-vector-8356501.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-desktop-icon-vector-8356501" title="computer desktop icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/65/01/computer-desktop-icon-vector-8356501.jpg" title="computer desktop icon" alt="computer desktop icon vector image"></noscript></a></li>
+						<li data-id="35842460" data-title="computer monitor outline icon" data-src="https://cdn1.vectorstock.com/i/thumbs/24/60/computer-monitor-outline-icon-vector-35842460.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-monitor-outline-icon-vector-35842460" title="computer monitor outline icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/24/60/computer-monitor-outline-icon-vector-35842460.jpg" title="computer monitor outline icon" alt="computer monitor outline icon vector image"></noscript></a></li>
+						<li data-id="1799226" data-title="computer icons" data-src="https://cdn.vectorstock.com/i/500p/92/26/computer-icons-vector-1799226.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-icons-vector-1799226" title="computer icons vector image"><noscript><img src="https://cdn.vectorstock.com/i/500p/92/26/computer-icons-vector-1799226.jpg" title="computer icons" alt="computer icons vector image"></noscript></a></li>
+						<li data-id="22915558" data-title="desktop computer screen with doccuments" data-src="https://cdn4.vectorstock.com/i/thumbs/55/58/desktop-computer-screen-with-doccuments-vector-22915558.jpg"><a href="//www.vectorstock.com/royalty-free-vector/desktop-computer-screen-with-doccuments-vector-22915558" title="desktop computer screen with doccuments vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/55/58/desktop-computer-screen-with-doccuments-vector-22915558.jpg" title="desktop computer screen with doccuments" alt="desktop computer screen with doccuments vector image"></noscript></a></li>
+						<li data-id="11109481" data-title="monitor error icon flat style" data-src="https://cdn2.vectorstock.com/i/thumbs/94/81/monitor-error-icon-flat-style-vector-11109481.jpg"><a href="//www.vectorstock.com/royalty-free-vector/monitor-error-icon-flat-style-vector-11109481" title="monitor error icon flat style vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/94/81/monitor-error-icon-flat-style-vector-11109481.jpg" title="monitor error icon flat style" alt="monitor error icon flat style vector image"></noscript></a></li>
+						<li data-id="20529745" data-title="device icons - desktop computer laptop" data-src="https://cdn1.vectorstock.com/i/thumbs/97/45/device-icons-desktop-computer-laptop-vector-20529745.jpg"><a href="//www.vectorstock.com/royalty-free-vector/device-icons-desktop-computer-laptop-vector-20529745" title="device icons - desktop computer laptop vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/97/45/device-icons-desktop-computer-laptop-vector-20529745.jpg" title="device icons - desktop computer laptop" alt="device icons - desktop computer laptop vector image"></noscript></a></li>
+						<li data-id="10829573" data-title="add user icon" data-src="https://cdn4.vectorstock.com/i/thumbs/95/73/add-user-icon-vector-10829573.jpg"><a href="//www.vectorstock.com/royalty-free-vector/add-user-icon-vector-10829573" title="add user icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/95/73/add-user-icon-vector-10829573.jpg" title="add user icon" alt="add user icon vector image"></noscript></a></li>
+						<li data-id="1165898" data-title="modern digital devices" data-src="https://cdn4.vectorstock.com/i/thumbs/58/98/modern-digital-devices-vector-1165898.jpg"><a href="//www.vectorstock.com/royalty-free-vector/modern-digital-devices-vector-1165898" title="modern digital devices vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/58/98/modern-digital-devices-vector-1165898.jpg" title="modern digital devices" alt="modern digital devices vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-similar-to_16801821" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="/royalty-free-vectors/vectors-by_ahasoft" rel="nofollow">ahasoft</a></strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/network-user-computer-mesh-vector-35130059">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/00/59/network-user-computer-mesh-vector-35130059.webp 2x, https://cdn.vectorstock.com/i/preview-1x/00/59/network-user-computer-mesh-vector-35130059.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/00/59/network-user-computer-mesh-vector-35130059.webp 3x, https://cdn.vectorstock.com/i/preview-1x/00/59/network-user-computer-mesh-vector-35130059.webp 2x, https://cdn.vectorstock.com/i/preview-lt/00/59/network-user-computer-mesh-vector-35130059.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/00/59/network-user-computer-mesh-vector-35130059.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/00/59/network-user-computer-mesh-vector-35130059.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/00/59/network-user-computer-mesh-vector-35130059.jpg" data-id="35130059" data-title="network user computer mesh" data-ratio="1.428" loading="lazy" alt="Network user computer mesh vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-administrator-flat-icon-vector-19787943">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/79/43/computer-administrator-flat-icon-vector-19787943.webp 2x, https://cdn.vectorstock.com/i/preview-1x/79/43/computer-administrator-flat-icon-vector-19787943.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/79/43/computer-administrator-flat-icon-vector-19787943.webp 3x, https://cdn.vectorstock.com/i/preview-1x/79/43/computer-administrator-flat-icon-vector-19787943.webp 2x, https://cdn.vectorstock.com/i/preview-lt/79/43/computer-administrator-flat-icon-vector-19787943.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/79/43/computer-administrator-flat-icon-vector-19787943.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/79/43/computer-administrator-flat-icon-vector-19787943.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/79/43/computer-administrator-flat-icon-vector-19787943.jpg" data-id="19787943" data-title="computer administrator flat icon" data-ratio="0.928" loading="lazy" alt="Computer administrator flat icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-administrator-flat-icon-vector-16050786">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/07/86/computer-administrator-flat-icon-vector-16050786.webp 2x, https://cdn.vectorstock.com/i/preview-1x/07/86/computer-administrator-flat-icon-vector-16050786.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/07/86/computer-administrator-flat-icon-vector-16050786.webp 3x, https://cdn.vectorstock.com/i/preview-1x/07/86/computer-administrator-flat-icon-vector-16050786.webp 2x, https://cdn.vectorstock.com/i/preview-lt/07/86/computer-administrator-flat-icon-vector-16050786.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/07/86/computer-administrator-flat-icon-vector-16050786.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/07/86/computer-administrator-flat-icon-vector-16050786.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/07/86/computer-administrator-flat-icon-vector-16050786.jpg" data-id="16050786" data-title="computer administrator flat icon" data-ratio="1.016" loading="lazy" alt="Computer administrator flat icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-administrator-flat-icon-vector-16074166">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/41/66/computer-administrator-flat-icon-vector-16074166.webp 2x, https://cdn.vectorstock.com/i/preview-1x/41/66/computer-administrator-flat-icon-vector-16074166.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/41/66/computer-administrator-flat-icon-vector-16074166.webp 3x, https://cdn.vectorstock.com/i/preview-1x/41/66/computer-administrator-flat-icon-vector-16074166.webp 2x, https://cdn.vectorstock.com/i/preview-lt/41/66/computer-administrator-flat-icon-vector-16074166.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/41/66/computer-administrator-flat-icon-vector-16074166.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/41/66/computer-administrator-flat-icon-vector-16074166.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/41/66/computer-administrator-flat-icon-vector-16074166.jpg" data-id="16074166" data-title="computer administrator flat icon" data-ratio="1.152" loading="lazy" alt="Computer administrator flat icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-user-flat-icon-vector-18169412">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/94/12/computer-user-flat-icon-vector-18169412.webp 2x, https://cdn.vectorstock.com/i/preview-1x/94/12/computer-user-flat-icon-vector-18169412.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/94/12/computer-user-flat-icon-vector-18169412.webp 3x, https://cdn.vectorstock.com/i/preview-1x/94/12/computer-user-flat-icon-vector-18169412.webp 2x, https://cdn.vectorstock.com/i/preview-lt/94/12/computer-user-flat-icon-vector-18169412.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/94/12/computer-user-flat-icon-vector-18169412.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/94/12/computer-user-flat-icon-vector-18169412.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/94/12/computer-user-flat-icon-vector-18169412.jpg" data-id="18169412" data-title="computer user flat icon" data-ratio="1.236" loading="lazy" alt="Computer user flat icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-administrator-icon-with-bonus-vector-12624069">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/40/69/computer-administrator-icon-with-bonus-vector-12624069.webp 2x, https://cdn.vectorstock.com/i/preview-1x/40/69/computer-administrator-icon-with-bonus-vector-12624069.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/40/69/computer-administrator-icon-with-bonus-vector-12624069.webp 3x, https://cdn.vectorstock.com/i/preview-1x/40/69/computer-administrator-icon-with-bonus-vector-12624069.webp 2x, https://cdn.vectorstock.com/i/preview-lt/40/69/computer-administrator-icon-with-bonus-vector-12624069.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/40/69/computer-administrator-icon-with-bonus-vector-12624069.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/40/69/computer-administrator-icon-with-bonus-vector-12624069.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/40/69/computer-administrator-icon-with-bonus-vector-12624069.jpg" data-id="12624069" data-title="computer administrator icon with bonus" data-ratio="1.2" loading="lazy" alt="Computer administrator icon with bonus vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-administrator-flat-icon-vector-16781829">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/18/29/computer-administrator-flat-icon-vector-16781829.webp 2x, https://cdn.vectorstock.com/i/preview-1x/18/29/computer-administrator-flat-icon-vector-16781829.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/18/29/computer-administrator-flat-icon-vector-16781829.webp 3x, https://cdn.vectorstock.com/i/preview-1x/18/29/computer-administrator-flat-icon-vector-16781829.webp 2x, https://cdn.vectorstock.com/i/preview-lt/18/29/computer-administrator-flat-icon-vector-16781829.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/18/29/computer-administrator-flat-icon-vector-16781829.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/18/29/computer-administrator-flat-icon-vector-16781829.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/18/29/computer-administrator-flat-icon-vector-16781829.jpg" data-id="16781829" data-title="computer administrator flat icon" data-ratio="1.084" loading="lazy" alt="Computer administrator flat icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-administrator-web-mesh-vector-31353053">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/30/53/computer-administrator-web-mesh-vector-31353053.webp 2x, https://cdn.vectorstock.com/i/preview-1x/30/53/computer-administrator-web-mesh-vector-31353053.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/30/53/computer-administrator-web-mesh-vector-31353053.webp 3x, https://cdn.vectorstock.com/i/preview-1x/30/53/computer-administrator-web-mesh-vector-31353053.webp 2x, https://cdn.vectorstock.com/i/preview-lt/30/53/computer-administrator-web-mesh-vector-31353053.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/30/53/computer-administrator-web-mesh-vector-31353053.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/30/53/computer-administrator-web-mesh-vector-31353053.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/30/53/computer-administrator-web-mesh-vector-31353053.jpg" data-id="31353053" data-title="computer administrator web mesh" data-ratio="1.256" loading="lazy" alt="Computer administrator web mesh vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/39/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539.webp 2x, https://cdn.vectorstock.com/i/preview-1x/75/39/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/75/39/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539.webp 3x, https://cdn.vectorstock.com/i/preview-1x/75/39/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539.webp 2x, https://cdn.vectorstock.com/i/preview-lt/75/39/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/39/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/75/39/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/75/39/computer-administrator-mosaic-and-grunge-good-boy-vector-29227539.jpg" data-id="29227539" data-title="computer administrator mosaic and grunge good boy" data-ratio="1.996" loading="lazy" alt="Computer administrator mosaic and grunge good boy vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/98/00/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800.webp 2x, https://cdn.vectorstock.com/i/preview-1x/98/00/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/98/00/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800.webp 3x, https://cdn.vectorstock.com/i/preview-1x/98/00/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800.webp 2x, https://cdn.vectorstock.com/i/preview-lt/98/00/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/98/00/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/98/00/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/98/00/computer-administrator-mosaic-and-grunge-rectangle-vector-28079800.jpg" data-id="28079800" data-title="computer administrator mosaic and grunge rectangle" data-ratio="2.108" loading="lazy" alt="Computer administrator mosaic and grunge rectangle vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="27728901" data-title="computer administrator composition icon ragged" data-src="https://cdn2.vectorstock.com/i/thumbs/89/01/computer-administrator-composition-icon-ragged-vector-27728901.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-administrator-composition-icon-ragged-vector-27728901" title="computer administrator composition icon ragged vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/89/01/computer-administrator-composition-icon-ragged-vector-27728901.jpg" title="computer administrator composition icon ragged" alt="computer administrator composition icon ragged vector image vector image"></noscript></a></li>
+						<li data-id="27737644" data-title="user computer composition icon raggy pieces" data-src="https://cdn5.vectorstock.com/i/thumbs/76/44/user-computer-composition-icon-raggy-pieces-vector-27737644.jpg"><a href="//www.vectorstock.com/royalty-free-vector/user-computer-composition-icon-raggy-pieces-vector-27737644" title="user computer composition icon raggy pieces vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/76/44/user-computer-composition-icon-raggy-pieces-vector-27737644.jpg" title="user computer composition icon raggy pieces" alt="user computer composition icon raggy pieces vector image vector image"></noscript></a></li>
+						<li data-id="17227405" data-title="computer user flat icon" data-src="https://cdn1.vectorstock.com/i/thumbs/74/05/computer-user-flat-icon-vector-17227405.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-user-flat-icon-vector-17227405" title="computer user flat icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/74/05/computer-user-flat-icon-vector-17227405.jpg" title="computer user flat icon" alt="computer user flat icon vector image vector image"></noscript></a></li>
+						<li data-id="19754093" data-title="computer user icon with bonus" data-src="https://cdn4.vectorstock.com/i/thumbs/40/93/computer-user-icon-with-bonus-vector-19754093.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-user-icon-with-bonus-vector-19754093" title="computer user icon with bonus vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/40/93/computer-user-icon-with-bonus-vector-19754093.jpg" title="computer user icon with bonus" alt="computer user icon with bonus vector image vector image"></noscript></a></li>
+						<li data-id="13559672" data-title="computer administrator icon with dating bonus" data-src="https://cdn3.vectorstock.com/i/thumbs/96/72/computer-administrator-icon-with-dating-bonus-vector-13559672.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-administrator-icon-with-dating-bonus-vector-13559672" title="computer administrator icon with dating bonus vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/96/72/computer-administrator-icon-with-dating-bonus-vector-13559672.jpg" title="computer administrator icon with dating bonus" alt="computer administrator icon with dating bonus vector image vector image"></noscript></a></li>
+						<li data-id="35344103" data-title="hatched computer administrator mesh" data-src="https://cdn4.vectorstock.com/i/thumbs/41/03/hatched-computer-administrator-mesh-vector-35344103.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hatched-computer-administrator-mesh-vector-35344103" title="hatched computer administrator mesh vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/41/03/hatched-computer-administrator-mesh-vector-35344103.jpg" title="hatched computer administrator mesh" alt="hatched computer administrator mesh vector image vector image"></noscript></a></li>
+						<li data-id="17227755" data-title="user computer flat icon" data-src="https://cdn1.vectorstock.com/i/thumbs/77/55/user-computer-flat-icon-vector-17227755.jpg"><a href="//www.vectorstock.com/royalty-free-vector/user-computer-flat-icon-vector-17227755" title="user computer flat icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/77/55/user-computer-flat-icon-vector-17227755.jpg" title="user computer flat icon" alt="user computer flat icon vector image vector image"></noscript></a></li>
+						<li data-id="28374594" data-title="computer administrator composition icon circle" data-src="https://cdn5.vectorstock.com/i/thumbs/45/94/computer-administrator-composition-icon-circle-vector-28374594.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-administrator-composition-icon-circle-vector-28374594" title="computer administrator composition icon circle vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/45/94/computer-administrator-composition-icon-circle-vector-28374594.jpg" title="computer administrator composition icon circle" alt="computer administrator composition icon circle vector image vector image"></noscript></a></li>
+						<li data-id="28188557" data-title="computer user composition icon abrupt parts" data-src="https://cdn3.vectorstock.com/i/thumbs/85/57/computer-user-composition-icon-abrupt-parts-vector-28188557.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-user-composition-icon-abrupt-parts-vector-28188557" title="computer user composition icon abrupt parts vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/85/57/computer-user-composition-icon-abrupt-parts-vector-28188557.jpg" title="computer user composition icon abrupt parts" alt="computer user composition icon abrupt parts vector image vector image"></noscript></a></li>
+						<li data-id="21093585" data-title="decomposed pixel halftone computer user icon" data-src="https://cdn1.vectorstock.com/i/thumbs/35/85/decomposed-pixel-halftone-computer-user-icon-vector-21093585.jpg"><a href="//www.vectorstock.com/royalty-free-vector/decomposed-pixel-halftone-computer-user-icon-vector-21093585" title="decomposed pixel halftone computer user icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/35/85/decomposed-pixel-halftone-computer-user-icon-vector-21093585.jpg" title="decomposed pixel halftone computer user icon" alt="decomposed pixel halftone computer user icon vector image vector image"></noscript></a></li>
+						<li data-id="16402276" data-title="user computer flat icon" data-src="https://cdn2.vectorstock.com/i/thumbs/22/76/user-computer-flat-icon-vector-16402276.jpg"><a href="//www.vectorstock.com/royalty-free-vector/user-computer-flat-icon-vector-16402276" title="user computer flat icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/22/76/user-computer-flat-icon-vector-16402276.jpg" title="user computer flat icon" alt="user computer flat icon vector image vector image"></noscript></a></li>
+						<li data-id="12545680" data-title="computer administrator flat icon" data-src="https://cdn1.vectorstock.com/i/thumbs/56/80/computer-administrator-flat-icon-vector-12545680.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-administrator-flat-icon-vector-12545680" title="computer administrator flat icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/56/80/computer-administrator-flat-icon-vector-12545680.jpg" title="computer administrator flat icon" alt="computer administrator flat icon vector image vector image"></noscript></a></li>
+						<li data-id="31371269" data-title="line computer user icon collage" data-src="https://cdn5.vectorstock.com/i/thumbs/12/69/line-computer-user-icon-collage-vector-31371269.jpg"><a href="//www.vectorstock.com/royalty-free-vector/line-computer-user-icon-collage-vector-31371269" title="line computer user icon collage vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/12/69/line-computer-user-icon-collage-vector-31371269.jpg" title="line computer user icon collage" alt="line computer user icon collage vector image vector image"></noscript></a></li>
+						<li data-id="34861462" data-title="linear computer administrator mesh" data-src="https://cdn3.vectorstock.com/i/thumbs/14/62/linear-computer-administrator-mesh-vector-34861462.jpg"><a href="//www.vectorstock.com/royalty-free-vector/linear-computer-administrator-mesh-vector-34861462" title="linear computer administrator mesh vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/14/62/linear-computer-administrator-mesh-vector-34861462.jpg" title="linear computer administrator mesh" alt="linear computer administrator mesh vector image vector image"></noscript></a></li>
+						<li data-id="18169408" data-title="computer administrator flat icon" data-src="https://cdn4.vectorstock.com/i/thumbs/94/08/computer-administrator-flat-icon-vector-18169408.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-administrator-flat-icon-vector-18169408" title="computer administrator flat icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/94/08/computer-administrator-flat-icon-vector-18169408.jpg" title="computer administrator flat icon" alt="computer administrator flat icon vector image vector image"></noscript></a></li>
+						<li data-id="19787955" data-title="computer user flat icon" data-src="https://cdn1.vectorstock.com/i/thumbs/79/55/computer-user-flat-icon-vector-19787955.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-user-flat-icon-vector-19787955" title="computer user flat icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/79/55/computer-user-flat-icon-vector-19787955.jpg" title="computer user flat icon" alt="computer user flat icon vector image vector image"></noscript></a></li>
+						<li data-id="19786925" data-title="computer administrator flat icon" data-src="https://cdn1.vectorstock.com/i/thumbs/69/25/computer-administrator-flat-icon-vector-19786925.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-administrator-flat-icon-vector-19786925" title="computer administrator flat icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/69/25/computer-administrator-flat-icon-vector-19786925.jpg" title="computer administrator flat icon" alt="computer administrator flat icon vector image vector image"></noscript></a></li>
+						<li data-id="19757690" data-title="computer user icon with bonus" data-src="https://cdn1.vectorstock.com/i/thumbs/76/90/computer-user-icon-with-bonus-vector-19757690.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-user-icon-with-bonus-vector-19757690" title="computer user icon with bonus vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/76/90/computer-user-icon-with-bonus-vector-19757690.jpg" title="computer user icon with bonus" alt="computer user icon with bonus vector image vector image"></noscript></a></li>
+						<li data-id="25714454" data-title="computer user polygonal frame mesh" data-src="https://cdn5.vectorstock.com/i/thumbs/44/54/computer-user-polygonal-frame-mesh-vector-25714454.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-user-polygonal-frame-mesh-vector-25714454" title="computer user polygonal frame mesh vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/44/54/computer-user-polygonal-frame-mesh-vector-25714454.jpg" title="computer user polygonal frame mesh" alt="computer user polygonal frame mesh vector image vector image"></noscript></a></li>
+						<li data-id="19825163" data-title="computer user icon with bonus" data-src="https://cdn4.vectorstock.com/i/thumbs/51/63/computer-user-icon-with-bonus-vector-19825163.jpg"><a href="//www.vectorstock.com/royalty-free-vector/computer-user-icon-with-bonus-vector-19825163" title="computer user icon with bonus vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/51/63/computer-user-icon-with-bonus-vector-19825163.jpg" title="computer user icon with bonus" alt="computer user icon with bonus vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-by_ahasoft" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="/royalty-free-vectors/user-vectors">User</a></li>
+					<li><a href="/royalty-free-vectors/desktop-vectors">Desktop</a></li>
+					<li><a href="/royalty-free-vectors/computer-vectors">Computer</a></li>
+					<li><a href="/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="/royalty-free-vectors/monitor-vectors">Monitor</a></li>
+					<li><a href="/royalty-free-vectors/flat-vectors">Flat</a></li>
+					<li><a href="/royalty-free-vectors/man-vectors">Man</a></li>
+					<li><a href="/royalty-free-vectors/display-vectors">Display</a></li>
+					<li><a href="/royalty-free-vectors/screen-vectors">Screen</a></li>
+					<li><a href="/royalty-free-vectors/online-vectors">Online</a></li>
+					<li><a href="/royalty-free-vectors/customer-vectors">Customer</a></li>
+					<li><a href="/royalty-free-vectors/office-vectors">Office</a></li>
+					<li><a href="/royalty-free-vectors/work-vectors">Work</a></li>
+					<li><a href="/royalty-free-vectors/vector-vectors">Vector</a></li>
+					<li><a href="/royalty-free-vectors/boy-vectors">Boy</a></li>
+					<li><a href="/royalty-free-vectors/type-vectors">Type</a></li>
+					<li><a href="/royalty-free-vectors/person-vectors">Person</a></li>
+					<li><a href="/royalty-free-vectors/male-vectors">Male</a></li>
+					<li><a href="/royalty-free-vectors/profile-vectors">Profile</a></li>
+					<li><a href="/royalty-free-vectors/human-vectors">Human</a></li>
+					<li><a href="/royalty-free-vectors/manager-vectors">Manager</a></li>
+					<li><a href="/royalty-free-vectors/employee-vectors">Employee</a></li>
+					<li><a href="/royalty-free-vectors/personal-vectors">Personal</a></li>
+					<li><a href="/royalty-free-vectors/member-vectors">Member</a></li>
+					<li><a href="/royalty-free-vectors/client-vectors">Client</a></li>
+					<li><a href="/royalty-free-vectors/account-vectors">Account</a></li>
+					<li><a href="/royalty-free-vectors/avatar-vectors">Avatar</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="/" title="Home">Home</a></li>
+					<li class="sel"><a href="/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="/signup" title="Join Now">Join Now</a></li>
+						<li><a href="/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="/?signup=1&contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock&reg;">VectorStock&reg;</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				&copy; 2024. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="Da+x6uinlrqLPw9/+IsEkzQVJxydkkLo9gtpgEPrIz8=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":405,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+	<script id="_a_admitag" src="https://cdn.teleportapi.com/admitag.min.js?campaign_code=69ba13f9ec" defer></script><script nonce='Da+x6uinlrqLPw9/+IsEkzQVJxydkkLo9gtpgEPrIz8=' type="text/javascript">try{var cookie_name="deduplication_cookie",days_to_store=90,deduplication_cookie_value="admitad",channel_name="utm_source";getSourceParamFromUri=function(){return(new RegExp(channel_name+"=([^&]+)").exec(document.location.search)||[])[1]||""},getSourceCookie=function(){var e=document.cookie.match(new RegExp("(?:^|; )"+cookie_name.replace(/([\.$?*|{}\(\)\[\]\\/\+^])/g,"\$1")+"=([^;]*)"));return e?decodeURIComponent(e[1]):void 0},setSourceCookie=function(){var e=getSourceParamFromUri(),o=new URL(document.location).searchParams;if(!o.get(channel_name)&&o.get("gclid"))e="advAutoMarkup";else if(!e)return;var n=new Date(60*days_to_store*60*24*1e3+ +new Date),a=cookie_name+"="+e+"; path=/; expires="+n.toGMTString();document.cookie=a,document.cookie=a+"; domain=."+location.host},setSourceCookie();}catch(e){}</script>
+	<script id="profitwell-js" data-pw-auth="1051055e2c0cbe1da2ab7ca0abe9bc55" nonce="Da+x6uinlrqLPw9/+IsEkzQVJxydkkLo9gtpgEPrIz8=">
+	$(document).ready(function() {(function(i,s,o,g,r,a,m){i[o]=i[o]||function(){(i[o].q=i[o].q||[]).push(arguments)}; a=s.createElement(g);m=s.getElementsByTagName(g)[0];a.async=1;a.src=r+'?auth='+s.getElementById(o+'-js').getAttribute('data-pw-auth');m.parentNode.insertBefore(a,m);})(window,document,'profitwell','script','https://public.profitwell.com/js/profitwell.js');
+	profitwell('start', {});});</script>
+
+</body>
+</html>
